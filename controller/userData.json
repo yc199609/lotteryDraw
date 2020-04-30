@@ -1,0 +1,28 @@
+{
+    "userName": 23,
+    "permissions": [
+        {
+            "path": 123,
+            "name": "设备",
+            "meta": {
+                "icon": "iconshebei1"
+            },
+            "children": [
+                {
+                    "path": "home",
+                    "name": "设备首页",
+                    "meta": {
+                        "icon": "iconshouye"
+                    }
+                },
+                {
+                    "path": "about",
+                    "name": "设备详情",
+                    "meta": {
+                        "icon": "icondetails"
+                    }
+                }
+            ]
+        }
+    ]
+}

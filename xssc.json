@@ -1,0 +1,349 @@
+[
+    {
+        "path": "/home",
+        "name": "Home",
+        "redirect": "/home/home",
+        "meta": {
+            "title": "首页",
+            "icon": "&#xe64e;"
+        },
+        "children": [
+            {
+                "name": "home",
+                "path": "/home/home",
+                "meta": {
+                    "title": "首页",
+                    "affix": true
+                }
+            }
+        ]
+    },
+    {
+        "path": "/Personnel",
+        "alwaysShow": true,
+        "redirect": "/Personnel/Employees",
+        "name": "Personnel",
+        "meta": {
+            "title": "personnelManagement",
+            "icon": "&#xe604;"
+        },
+        "children": [
+            {
+                "path": "Employees",
+                "name": "Employees",
+                "meta": {
+                    "title": "employees",
+                    "icon": "&#xe72e;"
+                }
+            },
+            {
+                "path": "department",
+                "name": "Department",
+                "meta": {
+                    "title": "department",
+                    "icon": "&#xe663;"
+                }
+            },
+            {
+                "path": "Role",
+                "name": "Role",
+                "meta": {
+                    "title": "role",
+                    "icon": "&#xe651;"
+                }
+            }
+        ]
+    },
+    {
+        "path": "/EquipmentData",
+        "redirect": "/EquipmentData/Dictionary",
+        "alwaysShow": true,
+        "name": "EquipmentData",
+        "meta": {
+            "title": "deviceData",
+            "icon": "&#xe701;"
+        },
+        "children": [
+            {
+                "path": "Dictionary",
+                "name": "Dictionary",
+                "meta": {
+                    "title": "dataDictionary",
+                    "icon": "&#xe641;"
+                }
+            },
+            {
+                "path": "DataView",
+                "name": "DataView",
+                "meta": {
+                    "title": "display",
+                    "icon": "&#xe655;"
+                }
+            }
+        ]
+    },
+    {
+        "path": "/ExpertSystem",
+        "alwaysShow": true,
+        "name": "ExpertSystem",
+        "meta": {
+            "title": "ExpertSystem",
+            "icon": "&#xe617;"
+        },
+        "children": [
+            {
+                "path": "EquipmentManagement",
+                "alwaysShow": true,
+                "name": "EquipmentManagement2",
+                "meta": {
+                    "title": "deviceManagement",
+                    "icon": "&#xe61b;"
+                },
+                "children": [
+                    {
+                        "path": "parallel",
+                        "name": "parallel",
+                        "meta": {
+                            "title": "设备分组",
+                            "icon": "&#xe6ac;"
+                        }
+                    },
+                    {
+                        "path": "nfc",
+                        "name": "Nfc",
+                        "meta": {
+                            "title": "NFC列表",
+                            "icon": "&#xe990;"
+                        }
+                    },
+                    {
+                        "path": "list",
+                        "name": "List2",
+                        "meta": {
+                            "title": "deviceList",
+                            "icon": "&#xe6ac;"
+                        }
+                    },
+                    {
+                        "path": "parallelCurve",
+                        "name": "parallelCurve",
+                        "hidden": true,
+                        "meta": {
+                            "title": "并联曲线",
+                            "icon": "&#xe6ac;"
+                        }
+                    },
+                    {
+                        "path": "performance",
+                        "name": "performance",
+                        "hidden": true,
+                        "meta": {
+                            "title": "特征曲线",
+                            "icon": "&#xe6ac;"
+                        }
+                    },
+                    {
+                        "path": "addPartsFromTemplate",
+                        "name": "addPartsFromTemplate",
+                        "hidden": true,
+                        "meta": {
+                            "title": "addPartsFromTemplate",
+                            "icon": "&#xe6ac;"
+                        }
+                    },
+                    {
+                        "path": "add",
+                        "name": "add",
+                        "hidden": true,
+                        "meta": {
+                            "title": "add",
+                            "icon": "&#xe6ac;"
+                        }
+                    },
+                    {
+                        "path": "partDevice",
+                        "name": "partDevice",
+                        "hidden": true,
+                        "meta": {
+                            "title": "partDevice",
+                            "icon": "&#xe6ac;"
+                        }
+                    },
+                    {
+                        "path": "location",
+                        "name": "location",
+                        "hidden": true,
+                        "meta": {
+                            "title": "deviceLocation",
+                            "icon": "&#xe6ac;"
+                        }
+                    },
+                    {
+                        "path": "monitor",
+                        "name": "monitor",
+                        "hidden": true,
+                        "meta": {
+                            "title": "monitor",
+                            "icon": "&#xe6ac;"
+                        }
+                    },
+                    {
+                        "path": "list/:groupId",
+                        "name": "List3",
+                        "hidden": true,
+                        "meta": {
+                            "title": "deviceList",
+                            "icon": "&#xe6ac;"
+                        }
+                    },
+                    {
+                        "path": "type",
+                        "name": "Type2",
+                        "meta": {
+                            "title": "deviceType",
+                            "icon": "&#xe639;"
+                        }
+                    },
+                    {
+                        "path": "image",
+                        "name": "ImageList",
+                        "hidden": true,
+                        "meta": {
+                            "title": "图片列表"
+                        }
+                    },
+                    {
+                        "path": "status/:id",
+                        "name": "Status2",
+                        "hidden": true,
+                        "meta": {
+                            "title": "status",
+                            "icon": "&#xe62c;"
+                        }
+                    },
+                    {
+                        "path": "view/:id",
+                        "name": "Deviceview2",
+                        "hidden": true,
+                        "meta": {
+                            "title": "deviceDataDisplay",
+                            "icon": "list"
+                        }
+                    },
+                    {
+                        "path": "equipmentManagement/energyManagement",
+                        "name": "EnergyManagement2",
+                        "meta": {
+                            "title": "EnergyManagement",
+                            "icon": "&#xe635;"
+                        }
+                    }
+                ]
+            },
+            {
+                "path": "FaultManagement",
+                "alwaysShow": true,
+                "name": "FaultManagement1",
+                "meta": {
+                    "title": "FaultManagement",
+                    "icon": "&#xe60f;"
+                },
+                "children": [
+                    {
+                        "path": "faultRecord",
+                        "name": "FaultRecord",
+                        "meta": {
+                            "title": "FaultRecord",
+                            "icon": "&#xe6a0;"
+                        }
+                    },
+                    {
+                        "path": "analysis",
+                        "name": "Analysis8",
+                        "meta": {
+                            "title": "analysis",
+                            "icon": "&#xe668;"
+                        }
+                    },
+                    {
+                        "path": "analysisDetail1",
+                        "name": "AnalysisDetail7",
+                        "hidden": true,
+                        "meta": {
+                            "title": "analysisDetail1"
+                        }
+                    },
+                    {
+                        "path": "analysisDetail2",
+                        "name": "AnalysisDetail3",
+                        "hidden": true,
+                        "meta": {
+                            "title": "analysisDetail2"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "path": "/feedback",
+        "redirect": "/feedback/feedback",
+        "name": "Feedback",
+        "meta": {
+            "title": "反馈管理",
+            "icon": "&#xe6e5;"
+        },
+        "children": [
+            {
+                "path": "/feedback/feedback",
+                "meta": {
+                    "title": "反馈管理"
+                }
+            }
+        ]
+    },
+    {
+        "path": "/operation",
+        "redirect": "/operation/rules",
+        "name": "operation",
+        "meta": {
+            "title": "操作规范",
+            "icon": "&#xe615;"
+        },
+        "alwaysShow": true,
+        "children": [
+            {
+                "path": "/operation/rules",
+                "meta": {
+                    "title": "规章制度",
+                    "icon": "&#xe606;"
+                }
+            }
+        ]
+    },
+    {
+        "path": "/doc",
+        "alwaysShow": true,
+        "redirect": "/doc/doc-content",
+        "meta": {
+            "title": "基础323管理",
+            "icon": "&#xe6e5;"
+        },
+        "children": [
+            {
+                "path": "/doc/doc-type",
+                "name": "doc-type",
+                "meta": {
+                    "title": "文档类型"
+                }
+            },
+            {
+                "path": "/doc/doc-list",
+                "name": "doc-list",
+                "meta": {
+                    "title": "文档sd表"
+                }
+            }
+        ]
+    }
+]

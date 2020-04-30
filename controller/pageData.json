@@ -1,0 +1,35 @@
+
+{
+    "totalCount": 1,
+    "pageSize": 10,
+    "totalPage": 1,
+    "currPage": 1,
+    "data": [
+        {
+            "barCode": "YCX600082000100",
+            "brandId": 1931,
+            "brandName": "Other",
+            "code": "0",
+            "createTime": 1554358223000,
+            "experience": "家居日用-收纳用品-收纳箱/盒",
+            "id": 1077,
+            "pic": "https://sqqmall-php.oss-cn-shenzhen.aliyuncs.com/2019/04/04/57d2c23d91d7329d.jpg,https://sqqmall-php.oss-cn-shenzhen.aliyuncs.com/2019/04/04/709f48032d3aba8c.jpg,https://sqqmall-php.oss-cn-shenzhen.aliyuncs.com/2019/04/04/a10a3143a895d859.jpg,https://sqqmall-php.oss-cn-shenzhen.aliyuncs.com/2019/04/04/ce8665e99f50fc4a.jpg,https://sqqmall-php.oss-cn-shenzhen.aliyuncs.com/2019/04/04/e0c75493084574bc.jpg",
+            "shortName": "抽屉化妆品收纳盒化妆刷整理盒 桌面首饰护肤品分格梳妆盒",
+            "spuCode": "1-690-YCX600082000100-190404000036-006",
+            "status": [2, 3, 3]
+        }, 
+        {
+            "barCode": "hzh190319000200",
+            "brandId": 2236,
+            "brandName": "俏风采",
+            "code": "0",
+            "createTime": 1553065413000,
+            "experience": "服饰内衣-内衣-女式内裤",
+            "id": 632,
+            "pic": "https://sqqmall-php.oss-cn-shenzhen.aliyuncs.com/2019/03/19/8ef9d947b880084a.jpg,https://sqqmall-php.oss-cn-shenzhen.aliyuncs.com/2019/03/19/c9c5f1222461614a.jpg,https://sqqmall-php.oss-cn-shenzhen.aliyuncs.com/2019/03/19/6d3b6a003f5334de.jpg,https://sqqmall-php.oss-cn-shenzhen.aliyuncs.com/2019/03/19/c03c1317f5195cc6.jpg",
+            "shortName": "高端无痕纯棉女士内裤4条",
+            "spuCode": "1-690-hzh190319000200-190320000007-060",
+            "status": [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+        }
+    ]
+}

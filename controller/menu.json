@@ -1,0 +1,59 @@
+[
+    {
+        "path": "/",
+        "meta": {
+            "title": "首页"
+        },  
+        "children": [
+            {
+                "path": "dashboard",
+                "component": "/home/index",
+                "meta": {
+                    "title": "首页",
+                    "icon": "&#xe723;"
+                }
+            }
+        ]
+    },
+    {
+        "path": "/price",
+        "meta": {
+            "title": "定价系统",
+            "icon": "&#xe6b7;"
+        },
+        "children": [
+            {
+                "path": "procurement",
+                "component": "/price/procurement/index",
+                "meta": {
+                    "title": "采购"
+                }
+            },
+            {
+                "path": "procurement/detail",
+                "component": "/price/procurement/detail",
+                "meta": {
+                    "title": "采购详情",
+                    "hidden": true,
+                    "icon": "&#xe653;"
+                }
+            },
+            {
+                "path": "material",
+                "component": "/price/material/index",
+                "meta": {
+                    "title": "物控",
+                    "icon": "&#xe729;"
+                }
+            },
+            {
+                "path": "audit",
+                "component": "/price/audit/index",
+                "meta": {
+                    "title": "审计",
+                    "icon": "&#xe654;"
+                }
+            }
+        ]
+    }
+]

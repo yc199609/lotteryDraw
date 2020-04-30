@@ -1,0 +1,328 @@
+[
+    {
+        "path": "/home",
+        "name": "Home",
+        "redirect": "/home/home",
+        "meta": {
+            "title": "首页",
+            "icon": "&#xe64e;"
+        },
+        "children": [
+            {
+                "name": "home",
+                "path": "/home/home",
+                "meta": {
+                    "title": "首页",
+                    "affix": true
+                }
+            }
+        ]
+    },
+    {
+        "name": "baseManagement",
+        "path": "/home1",
+        "meta": {
+            "title": "基础管理",
+            "icon": "&#xe617;"
+        },
+        "children": [
+            {
+                "path": "/Personnel",
+                "alwaysShow": true,
+                "redirect": "/Personnel/Employees",
+                "name": "Personnel",
+                "meta": {
+                    "title": "personnelManagement",
+                    "icon": "&#xe604;",
+                    "code": "300"
+                },
+                "children": [
+                    {
+                        "path": "/Personnel/Employees",
+                        "name": "Employees",
+                        "meta": {
+                            "title": "employees",
+                            "icon": "&#xe72e;",
+                            "code": "30001"
+                        }
+                    },
+                    {
+                        "path": "/Personnel/department",
+                        "name": "Department",
+                        "meta": {
+                            "title": "department",
+                            "icon": "&#xe663;",
+                            "code": "30002"
+                        }
+                    },
+                    {
+                        "path": "/Personnel/Role",
+                        "name": "Role",
+                        "meta": {
+                            "title": "role",
+                            "icon": "&#xe651;",
+                            "code": "30003"
+                        }
+                    }
+                ]
+            },
+            {
+                "path": "/ExpertSystem/EquipmentManagement",
+                "alwaysShow": true,
+                "name": "EquipmentManagement2",
+                "meta": {
+                    "title": "deviceManagement",
+                    "icon": "&#xe61b;",
+                    "code": "1000000400"
+                },
+                "children": [
+                    {
+                        "path": "/ExpertSystem/EquipmentManagement/parallel",
+                        "name": "parallel",
+                        "meta": {
+                            "title": "设备分组",
+                            "icon": "&#xe6ac;",
+                            "code": "100000040015"
+                        }
+                    },
+                    {
+                        "path": "/ExpertSystem/EquipmentManagement/nfc",
+                        "name": "Nfc",
+                        "meta": {
+                            "title": "NFC列表",
+                            "icon": "&#xe990;",
+                            "code": "100000040010"
+                        }
+                    },
+                    {
+                        "path": "/ExpertSystem/EquipmentManagement/list",
+                        "name": "List2",
+                        "meta": {
+                            "title": "deviceList",
+                            "icon": "&#xe6ac;",
+                            "code": "100000040001"
+                        }
+                    },
+                    {
+                        "path": "/ExpertSystem/EquipmentManagement/parallelCurve",
+                        "name": "parallelCurve",
+                        "hidden": true,
+                        "meta": {
+                            "title": "并联曲线",
+                            "icon": "&#xe6ac;"
+                        }
+                    },
+                    {
+                        "path": "/ExpertSystem/EquipmentManagement/performance",
+                        "name": "performance",
+                        "hidden": true,
+                        "meta": {
+                            "title": "特征曲线",
+                            "icon": "&#xe6ac;",
+                            "code": "100000040001"
+                        }
+                    },
+                    {
+                        "path": "/ExpertSystem/EquipmentManagement/addPartsFromTemplate",
+                        "name": "addPartsFromTemplate",
+                        "hidden": true,
+                        "meta": {
+                            "title": "addPartsFromTemplate",
+                            "icon": "&#xe6ac;"
+                        }
+                    },
+                    {
+                        "path": "/ExpertSystem/EquipmentManagement/add",
+                        "name": "add",
+                        "hidden": true,
+                        "meta": {
+                            "title": "add",
+                            "icon": "&#xe6ac;",
+                            "code": "100000040001"
+                        }
+                    },
+                    {
+                        "path": "/ExpertSystem/EquipmentManagement/partDevice",
+                        "name": "partDevice",
+                        "hidden": true,
+                        "meta": {
+                            "title": "partDevice",
+                            "icon": "&#xe6ac;",
+                            "code": "100000040001"
+                        }
+                    },
+                    {
+                        "path": "/ExpertSystem/EquipmentManagement/location",
+                        "name": "location",
+                        "hidden": true,
+                        "meta": {
+                            "title": "deviceLocation",
+                            "icon": "&#xe6ac;",
+                            "code": "100000040001"
+                        }
+                    },
+                    {
+                        "path": "/ExpertSystem/EquipmentManagement/monitor",
+                        "name": "monitor",
+                        "hidden": true,
+                        "meta": {
+                            "title": "monitor",
+                            "icon": "&#xe6ac;",
+                            "code": "100000040001"
+                        }
+                    },
+                    {
+                        "path": "/ExpertSystem/EquipmentManagement/list/:groupId",
+                        "name": "List3",
+                        "hidden": true,
+                        "meta": {
+                            "title": "deviceList",
+                            "icon": "&#xe6ac;",
+                            "code": "100000040001"
+                        }
+                    },
+                    {
+                        "path": "/ExpertSystem/EquipmentManagement/type",
+                        "name": "Type2",
+                        "meta": {
+                            "title": "deviceType",
+                            "icon": "&#xe639;",
+                            "code": "100000040002"
+                        }
+                    },
+                    {
+                        "path": "/ExpertSystem/EquipmentManagement/image",
+                        "name": "ImageList",
+                        "hidden": true,
+                        "meta": {
+                            "title": "图片列表"
+                        }
+                    },
+                    {
+                        "path": "/ExpertSystem/EquipmentManagement/status/:id",
+                        "name": "Status2",
+                        "hidden": true,
+                        "meta": {
+                            "title": "status",
+                            "icon": "&#xe62c;",
+                            "code": "100000040004"
+                        }
+                    },
+                    {
+                        "path": "/ExpertSystem/EquipmentManagement/view/:id",
+                        "name": "Deviceview2",
+                        "hidden": true,
+                        "meta": {
+                            "title": "deviceDataDisplay",
+                            "icon": "list",
+                            "code": "100000040004"
+                        }
+                    },
+                    {
+                        "path": "/ExpertSystem/EquipmentManagement/equipmentManagement/energyManagement",
+                        "name": "EnergyManagement2",
+                        "meta": {
+                            "title": "EnergyManagement",
+                            "icon": "&#xe635;",
+                            "code": "40009"
+                        }
+                    }
+                ]
+            },
+            {
+                "path": "/doc",
+                "alwaysShow": true,
+                "redirect": "/doc/doc-content",
+                "meta": {
+                    "title": "操作规程",
+                    "icon": "&#xe636;",
+                    "code": "902"
+                },
+                "children": [
+                    {
+                        "path": "/doc/doc-type",
+                        "name": "doc-type",
+                        "meta": {
+                            "title": "文档类型",
+                            "icon": "&#xe60c;",
+                            "code": "90203"
+                        }
+                    },
+                    {
+                        "path": "/doc/doc-list",
+                        "name": "doc-list",
+                        "meta": {
+                            "title": "文档列表",
+                            "icon": "&#xe8ce;",
+                            "code": "90202"
+                        }
+                    }
+                ]
+            },
+            {
+                "path": "/maintenance",
+                "meta": {
+                    "title": "维保记录",
+                    "icon": "&#xe649;",
+                    "code": "20005"
+                },
+                "children": [
+                    {
+                        "path": "/maintenance",
+                        "meta": {
+                            "title": "维保记录"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "path": "/ExpertSystem/FaultManagement",
+        "alwaysShow": true,
+        "name": "FaultManagement1",
+        "meta": {
+            "title": "故障诊断",
+            "icon": "&#xe60f;",
+            "code": "1000000401"
+        },
+        "children": [
+            {
+                "path": "/ExpertSystem/FaultManagement/faultRecord",
+                "name": "FaultRecord",
+                "meta": {
+                    "title": "FaultRecord",
+                    "icon": "&#xe6a0;",
+                    "code": "100000040101"
+                }
+            },
+            {
+                "path": "/ExpertSystem/FaultManagement/analysis",
+                "name": "Analysis8",
+                "meta": {
+                    "title": "analysis",
+                    "icon": "&#xe668;",
+                    "code": "100000040102"
+                }
+            },
+            {
+                "path": "/ExpertSystem/FaultManagement/analysisDetail1",
+                "name": "AnalysisDetail7",
+                "hidden": true,
+                "meta": {
+                    "title": "analysisDetail1",
+                    "code": "100000040102"
+                }
+            },
+            {
+                "path": "/ExpertSystem/FaultManagement/analysisDetail2",
+                "name": "AnalysisDetail3",
+                "hidden": true,
+                "meta": {
+                    "title": "analysisDetail2",
+                    "code": "100000040102"
+                }
+            }
+        ]
+    }
+]
